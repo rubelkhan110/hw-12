@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*font-family: 'Bona Nova', serif;*/
+header{
+	background-image: url(../images/back1.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+ a .active{
+	background: white;
+	color: darkred;
+}
+.main{
+
+}
+.logo{
+	float: left;
+	display: inline-block;
+}
+.logo img{
+	margin: 5px;
+	width: 200px;
+}
+
+.menu{}
+.menu ul{
+	float: right;
+	margin: 10px 20px;
+}
+.menu ul li{
+	
+	list-style: none;
+	display: inline-block;
+
+}
+.menu ul li a{
+	font-family: 'Bona Nova', serif;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 19px;
+	border: 1px solid red;
+	display: block;
+	background: #f3814a;
+	color: #fff;
+	border-radius: 30px;
+	transition: .05s;
+
+
+}
+.menu ul li a:hover{
+	background: #ff4b22;
+
+}
+
+
+
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h2{
+	font-family: 'Bona Nova', serif;
+	font-size: 30px;
+}
+
+.btn{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn a{
+	font-family: 'Bona Nova', serif;
+	text-decoration: none;
+	color: red;
+	font-size: 19px;
+	border: 1px solid blue;
+	padding: 5px 10px;
+	margin: 5px;
+	color: #0c0202;
+  border-radius: 20px;
+
+}
+.btn a:hover{
+	background: #f34a4a;
+	color: white;
+  letter-spacing: 0.06ch;
+}
+
+
+.footer{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.footer p{
+	font-family: 'Bona Nova', serif;
+	font-size: 19px;
+	color: white;
+
+}
+
+/*---gallary start--*/
+.gallary{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.gallary-1{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.gallary-2{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gallary-3{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g2.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.gallary-4{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.gallary-5{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/g1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.gallary a{
+	text-decoration: none;
+    color: white;
+    background: #af5252;
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+/*---gallary end---*/
+
+/*--team start ---*/
+section h2{
+	text-align: center ;
+	font-size: 40px;
+	color: black;
+margin-bottom: 40px;
+
+}
+.team-member{
+	height: 80%;
+	margin: auto;
+	padding-top: 120px;
+}
+.single-team{
+	height: 335px;
+	width: 31.33%;
+	background: yellow;
+	display: inline-block;
+}
+.single-team img{
+	display: block;
+	margin: 10px auto;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid blue;}
+
+	.single-team h2{
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+	.single-team p{
+		text-align: center;
+		font-family: 'Bona Nova', serif;
+	}
+	a{
+		    text-decoration: none;
+    color: white;
+    background: #af5252;
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 30px;
+	}
+
+/*-- team end --*/
